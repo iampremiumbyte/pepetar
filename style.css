@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.overlay button {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
